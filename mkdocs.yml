@@ -69,10 +69,10 @@ extra_css:
 
 plugins:
   - i18n:
-      default_language: en
+      default_language: 'en'
       languages:
-        en: english
-        fr: français
+        en: "English"
+        fr: "Francais"
       nav_translations:
         en:
           Introductory course: 
