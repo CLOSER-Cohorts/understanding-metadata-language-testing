@@ -69,7 +69,6 @@ extra_css:
 
 plugins:
   - i18n:
-  - i18n:
       default_language: en
       languages:
         en: english
