@@ -71,8 +71,14 @@ plugins:
   - i18n:
       default_language: 'en'
       languages:
-        en: "English"
-        fr: "Francais"
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: fr
+          name: Francais
+          build: true
+          default: false
       nav_translations:
         en:
           Introductory course: 
