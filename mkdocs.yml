@@ -1,6 +1,7 @@
 site_name: Understanding Metadata
 
 theme:
+  language: en
   name: material
   features:
 #    - navigation.expand
@@ -67,6 +68,13 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
   analytics:
     provider: google
     property: G-XM55ZQ1426
