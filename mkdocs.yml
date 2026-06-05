@@ -1,5 +1,7 @@
 site_name: Understanding Metadata 
 
+docs_dir: docs/
+
 theme:
   language: en
   name: material
@@ -11,7 +13,7 @@ theme:
   font:
     text: Source Sans Pro  
   palette:
-    primary: green    
+    primary: purple    
   nav:
     - Introductory course: index.md
      - Getting started: "introduction/1.0 Module Introduction.md"
@@ -46,6 +48,7 @@ theme:
 #    - 5.1 Activity - Create Study Metadata: "foundation/Activity: Create study metadata.md"  
 #    - 5.2 Activity - Create Metadata Relationships: "foundation/Activity: Create metadata relationships.md"  
 #  - Resources: "resources.md"
+
 markdown_extensions:
   - abbr
   - admonition
