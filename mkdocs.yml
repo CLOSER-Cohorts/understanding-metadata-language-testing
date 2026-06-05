@@ -78,7 +78,7 @@ plugins:
         - locale: fr
           name: Francais
           build: true
-          default: false
+          default: true
       nav_translations:
         en:
           Introductory course: 
