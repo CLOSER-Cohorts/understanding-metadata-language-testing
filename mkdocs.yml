@@ -12,9 +12,9 @@ theme:
     text: Source Sans Pro  
   palette:
     primary: green    
-# nav:
-#   - Introductory course: 
-#     - Getting started: "introduction/1.0 Module Introduction.md"
+  nav:
+    - Introductory course: 
+     - Getting started: "introduction/1.0 Module Introduction.md"
 #    - 1.1 Research Data: "introduction/1.1 Research data.md"
 #    - 1.2 Research Data Management: "introduction/1.2 Research data management.md"
 #    - 1.3 FAIR: "introduction/1.3 FAIR.md"
@@ -78,14 +78,9 @@ plugins:
         - locale: fr
           name: Francais
           build: true
-          default: true
-      nav_translations:
-        en:
-          - Introductory course: 
-              - Getting started: "introduction/1.0 Module Introduction.en.md"
-        fr:
-          - Cours d'introduction: 
-              - Mise en route: "introduction/1.0 Module Introduction.fr.md"
+        - nav_translations:
+            Introductory course: Cours d'introduction
+            Getting started: Mise en route
 
 extra:
   analytics:
