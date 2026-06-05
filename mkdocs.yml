@@ -81,10 +81,10 @@ plugins:
           default: true
       nav_translations:
         en:
-          Introductory course: 
+          - Introductory course: 
               - Getting started: "introduction/1.0 Module Introduction.en.md"
         fr:
-          Cours d'introduction: 
+          - Cours d'introduction: 
               - Mise en route: "introduction/1.0 Module Introduction.fr.md"
 
 extra:
