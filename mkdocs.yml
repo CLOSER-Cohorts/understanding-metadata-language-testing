@@ -15,7 +15,7 @@ theme:
   palette:
     primary: purple    
   nav:
-    - Introductory course
+    - Introductory course: index.md
      - Getting started: 
        - "introduction/1.0 Module Introduction.md"
 #    - 1.1 Research Data: "introduction/1.1 Research data.md"
