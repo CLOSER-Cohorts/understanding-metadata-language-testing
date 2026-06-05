@@ -1,0 +1,638 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../index.fr./">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Introduction au cours sur les métadonnées - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-XM55ZQ1426"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-XM55ZQ1426",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-XM55ZQ1426",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction-au-cours-sur-les-metadonnees" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../" title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction au cours sur les métadonnées
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sélectionner la langue">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../introduction/1.0%20Module%20Introduction/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="fr" class="md-select__link">
+              Francais
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Understanding Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.fr./" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comprendre les métadonnées
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Introduction
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction au cours sur les métadonnées
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction au cours sur les métadonnées
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-vaisje-apprendre-dans-ce-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      Que vais‑je apprendre dans ce cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-qui-sadresse-ce-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      À qui s’adresse ce cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quel-niveau-de-connaissances-doisje-avoir-avant-de-commencer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quel niveau de connaissances dois‑je avoir avant de commencer ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-suivre-le-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment suivre le cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combien-de-temps-le-cours-duretil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combien de temps le cours dure‑t‑il ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminologie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminologie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comm
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-vaisje-apprendre-dans-ce-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      Que vais‑je apprendre dans ce cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-qui-sadresse-ce-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      À qui s’adresse ce cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quel-niveau-de-connaissances-doisje-avoir-avant-de-commencer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quel niveau de connaissances dois‑je avoir avant de commencer ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comment-suivre-le-cours" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment suivre le cours ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combien-de-temps-le-cours-duretil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Combien de temps le cours dure‑t‑il ?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminologie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminologie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comm
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="introduction-au-cours-sur-les-metadonnees">Introduction au cours sur les métadonnées</h1>
+<p>Bienvenue dans le cours de formation <strong>Introduction aux métadonnées</strong>.</p>
+<p>Les métadonnées sont une partie essentielle du processus de recherche, façonnant la manière dont les données peuvent soutenir la création de connaissances, la réutilisation et l’impact au fil du temps. Pourtant, pour beaucoup de personnes, travailler avec des métadonnées peut sembler déroutant, trop technique ou difficile à appréhender. On s’attend souvent à ce que nous travaillions avec des métadonnées alors que les concepts et la terminologie sous‑jacents nous sont peu familiers, et cela peut donner l’impression qu’il s’agit de quelque chose que l’on est simplement « censé savoir » plutôt que quelque chose que l’on a eu l’occasion d’apprendre correctement.</p>
+<p>Malgré leur importance, les métadonnées sont rarement enseignées de manière formelle ou structurée. Elles sont souvent apprises de manière informelle, de façon incohérente et sous pression, à travers l’expérience professionnelle, les conventions locales ou des connaissances non documentées. Ce manque de fondations communes peut rendre difficile de savoir par où commencer, d’interpréter les recommandations ou les normes, de se sentir confiant et de prendre des décisions cohérentes.</p>
+<p>Ce cours propose une introduction structurée aux métadonnées, aidant à établir une compréhension partagée et un langage commun entre projets et organisations. En ancrant la pratique des métadonnées dans une base théorique, il soutient une prise de décision plus cohérente et intentionnelle concernant les données et les métadonnées.</p>
+<p>Améliorer vos compétences en métadonnées vous permettra de :</p>
+<ul>
+<li>Tirer davantage de valeur des infrastructures de recherche et des services de données</li>
+<li>Commencer un nouveau rôle de manière plus productive et confiante, en réduisant la dépendance à l’apprentissage informel « sur le tas »</li>
+<li>Améliorer la création de métadonnées, la gestion des données de recherche et le développement de systèmes</li>
+</ul>
+<h2 id="que-vaisje-apprendre-dans-ce-cours">Que vais‑je apprendre dans ce cours ?</h2>
+<div class="admonition example">
+<p>Une fois le cours terminé, vous serez capable de...</p>
+<ul>
+<li>Décrire ce que sont les données de recherche et comment elles sont générées</li>
+<li>Décrire les principes de la gestion des données de recherche (RDM) et FAIR, et expliquer leur importance dans la recherche</li>
+<li>Définir ce que sont les métadonnées et leur relation avec les données de recherche</li>
+<li>Expliquer le rôle des métadonnées dans l’aide à la découverte, la compréhension et la réutilisation des données</li>
+<li>Expliquer comment les métadonnées soutiennent la mise en œuvre des principes FAIR</li>
+<li>Décrire comment les métadonnées sont utilisées tout au long du cycle de vie de la recherche</li>
+<li>Décrire le rôle des dépôts de données et des catalogues de métadonnées dans la découverte et l’accès aux données</li>
+<li>Utiliser les métadonnées pour soutenir des activités de recherche telles que l’évaluation des données et leur pertinence pour votre travail</li>
+<li>Évaluer la qualité des métadonnées et identifier les caractéristiques qui rendent des métadonnées de haute qualité</li>
+<li>Définir les vocabulaires contrôlés et décrire leur rôle dans l’amélioration de la qualité des métadonnées</li>
+<li>Expliquer le rôle des normes et schémas de métadonnées dans la création et la gestion des métadonnées</li>
+<li>Appliquer des principes de base pour créer des métadonnées au niveau de l’étude pour votre recherche</li>
+</ul>
+<p>Ce cours se concentre principalement sur ce que sont les métadonnées et comment nous <em>utilisons</em> les métadonnées dans la recherche. Dans le prochain cours, Foundation (qui sera disponible prochainement), nous aborderons la <em>création</em> de métadonnées.</p>
+</div>
+<h2 id="a-qui-sadresse-ce-cours">À qui s’adresse ce cours ?</h2>
+<p>Ce cours s’adresse à toute personne amenée à travailler avec des données de recherche dans le cadre de son travail, par exemple en utilisant, analysant ou collectant des données de recherche.</p>
+<p>Ce cours peut être particulièrement pertinent pour...</p>
+<ul>
+<li>Les étudiants en master et doctorat</li>
+<li>Les chercheurs</li>
+<li>Les data stewards et gestionnaires de données</li>
+<li>Les personnes travaillant pour des organismes finançant la recherche académique</li>
+<li>Les personnes travaillant dans des domaines politiques utilisant des données et des recherches académiques</li>
+</ul>
+<h2 id="quel-niveau-de-connaissances-doisje-avoir-avant-de-commencer">Quel niveau de connaissances dois‑je avoir avant de commencer ?</h2>
+<p>Vous n’avez besoin d’aucune connaissance ou formation préalable en métadonnées pour suivre le cours d’introduction. Comme nous l’explorerons dans le cours, nous utilisons déjà des métadonnées dans de nombreux aspects de notre vie, souvent sans même nous en rendre compte. Même si c’est la première fois que vous rencontrez ce terme, vous avez très probablement déjà interagi avec des métadonnées.</p>
+<p>Vous connaissez peut‑être déjà les métadonnées et avez suivi une formation. Ce cours vise à consolider les connaissances autour des concepts clés des métadonnées.</p>
+<h2 id="comment-suivre-le-cours">Comment suivre le cours ?</h2>
+<p>Le cours d’introduction est divisé en 10 unités. Ce sont...</p>
+<div class="grid cards">
+<ul>
+<li><a href="1.1 Research data.md"><strong>Unité 1.1 Données de recherche</strong><p></p> 1 heure</a></li>
+<li><a href="1.2 Research data management.md"><strong>Unité 1.2 Gestion des données de recherche</strong><p></p> 1 heure</a></li>
+<li><a href="1.3 FAIR.md"><strong>Unité 1.3 FAIR</strong><p></p> 1 heure</a></li>
+<li><a href="2.1 Introduction to metadata.md"><strong>Unité 2.1 Introduction aux métadonnées</strong><p></p> 2 heures</a></li>
+<li><a href="2.2 Metadata in the research lifecycle.md"><strong>Unité 2.2 Les métadonnées dans le cycle de vie de la recherche</strong><p></p> 1 heure</a></li>
+<li><a href="2.3 Using metadata - discover data.md"><strong>Unité 2.3 Utiliser les métadonnées – découvrir des données</strong><p></p> 1,5 heure</a></li>
+<li><a href="2.4 Controlled vocabularies.md"><strong>Unité 2.4 Vocabulaires contrôlés</strong><p></p> 2 heures</a></li>
+<li><a href="2.5 Metadata standards.md"><strong>Unité 2.5 Normes de métadonnées</strong><p></p> 2 heures</a></li>
+<li><a href="2.6 Creating metadata, study level.md"><strong>Unité 2.6 Créer des métadonnées – niveau étude</strong><p></p> 1,5 heure</a></li>
+<li><a href="2.7 Introduction summary.md"><strong>Unité 2.7 Résumé de l’introduction</strong><p></p> 30 minutes</a></li>
+</ul>
+</div>
+<p>Si c’est votre première expérience avec les métadonnées, nous vous recommandons de suivre les unités dans l’ordre afin de construire progressivement votre compréhension.</p>
+<p>Si vous avez déjà une bonne compréhension des métadonnées, vous pouvez simplement parcourir les unités pour rafraîchir vos connaissances ou combler certaines lacunes.</p>
+<h2 id="combien-de-temps-le-cours-duretil">Combien de temps le cours dure‑t‑il ?</h2>
+<p>Le cours est estimé à environ 5 heures. Cette estimation se base sur :</p>
+<ul>
+<li>Une vitesse de lecture moyenne de 300 mots par minute</li>
+<li>Un temps d’apprentissage supplémentaire pour la compréhension de concepts techniques (entre 20 et 70 % de temps ajouté)</li>
+<li>Le temps consacré aux exercices, exemples et quiz</li>
+</ul>
+<p>Ces durées sont approximatives. Votre propre temps peut varier selon votre expérience, vos connaissances préalables et si vous réalisez toutes les activités.</p>
+<h2 id="terminologie">Terminologie</h2>
+<p>Comme notre compréhension et notre utilisation des métadonnées évoluent, il est important de noter que certains termes peuvent être utilisés différemment selon les personnes ou les disciplines. La manière dont certains concepts sont définis dans ce cours peut différer de votre compréhension actuelle. Pour garantir une compréhension claire du contenu, nous définirons les termes et concepts clés au fur et à mesure.</p>
+<p>Pour maintenir une cohérence dans nos définitions, lorsque cela est possible, nous nous référerons à la <a href="https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/">banque de terminologie de la gestion des données de recherche (RDM Terminology Bank)</a> développée par CODATA<sup>[1]</sup>. Nous pourrons également fournir d’autres définitions provenant d’autres sources pour offrir une description plus complète d’un concept.</p>
+<p>La RDM Terminology Bank est un vocabulaire interdisciplinaire, révisé par la communauté, qui définit les concepts clés de la gestion des données de recherche (RDM). Comme elle est régulièrement mise à jour, elle reflète la compréhension la plus récente de la RDM et vise à offrir une source unique de référence pour des termes pouvant être utilisés de différentes manières. Vous pouvez accéder à la <a href="https://vocabs.ardc.edu.au/viewById/685">RDM Terminology Bank ici</a> et nous vous recommandons de la garder ouverte pendant le cours pour consulter les termes qui vous sont nouveaux ou que vous souhaitez clarifier<sup>[2]</sup>.</p>
+<h2 id="comm">Comm</h2>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.prune", "content.tooltips"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
