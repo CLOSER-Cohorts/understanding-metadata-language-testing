@@ -1,5 +1,5 @@
 site_name: Understanding Metadata 
-
+copyright: Copyright © 2026 CLOSER
 docs_dir: docs/
 
 theme:
@@ -73,6 +73,7 @@ extra_css:
 
 plugins:
   - i18n:
+      docs_structure: suffix 
       default_language: 'en'
       languages:
         - locale: en
