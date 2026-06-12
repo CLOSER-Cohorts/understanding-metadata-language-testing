@@ -86,9 +86,9 @@ plugins:
       - locale: 'fr'
         name: Francais
         build: true
-      nav_translations:        
-        Introductory course: Cours d'introduction
-        Getting started: Mise en route
+        nav_translations:        
+          Introductory course: Cours d'introduction
+          Getting started: Mise en route
 
 extra:
   alternate:
