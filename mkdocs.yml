@@ -77,14 +77,13 @@ plugins:
       - en
       - fr      
   - i18n:
-    default_language: en
     docs_structure: suffix 
     languages:
-      - locale: en
+      - locale: 'en'
         default: true
         name: English
         build: true
-      - locale: fr
+      - locale: 'fr'
         name: Francais
         build: true
       nav_translations:        
