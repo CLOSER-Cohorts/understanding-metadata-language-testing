@@ -13,7 +13,7 @@ theme:
   font:
     text: Source Sans Pro  
   palette:
-    primary: purple    
+    primary: purple  
   nav:
     Introductory course: 
       - Getting started: "introduction/1.0 Module Introduction.md"
@@ -72,6 +72,10 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - search:
+    lang: 
+      - ja
+      - en      
   - i18n:
       docs_structure: suffix 
       languages:
@@ -83,6 +87,7 @@ plugins:
           name: Francais
           build: true
         - nav_translations:
+          fr:
             Introductory course: Cours d'introduction
             Getting started: Mise en route
 
