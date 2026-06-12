@@ -79,7 +79,7 @@ plugins:
   - i18n:
     docs_structure: suffix 
     languages:
-      - locale: 'en'
+      - locale: en
         default: true
         name: English
         build: true
