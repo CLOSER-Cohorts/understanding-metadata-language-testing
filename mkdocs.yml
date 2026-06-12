@@ -81,9 +81,9 @@ plugins:
     docs_structure: suffix 
     languages:
       - locale: en
+        default: true
         name: English
         build: true
-        default: true
       - locale: fr
         name: Francais
         build: true
