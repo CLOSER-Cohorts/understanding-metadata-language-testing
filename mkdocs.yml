@@ -3,8 +3,8 @@ copyright: Copyright © 2026 CLOSER
 docs_dir: docs/
 
 theme:
-  language: en
   name: material
+  language: en
   features:
 #    - navigation.expand
     - navigation.prune  # use this to collapse twhen more than one module is live
@@ -74,24 +74,32 @@ extra_css:
 plugins:
   - search:
     lang: 
-      - ja
-      - en      
+      - en
+      - fr      
   - i18n:
-      docs_structure: suffix 
-      languages:
-        - locale: en
-          name: English
-          build: true
-          default: true
-        - locale: fr
-          name: Francais
-          build: true
-        - nav_translations:
-          fr:
-            Introductory course: Cours d'introduction
-            Getting started: Mise en route
+    default_language: en
+    docs_structure: suffix 
+    languages:
+      - locale: en
+        name: English
+        build: true
+        default: true
+      - locale: fr
+        name: Francais
+        build: true
+      - nav_translations:
+        fr:
+          Introductory course: Cours d'introduction
+          Getting started: Mise en route
 
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Francais
+      link: /fr/
+      lang: fr
   analytics:
     provider: google
     property: G-XM55ZQ1426
