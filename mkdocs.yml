@@ -60,7 +60,4 @@ extra:
     - name: Français
       link: /fr/
       lang: fr
-  analytics:
-    provider: google
-    property: G-XM55ZQ1426
   
